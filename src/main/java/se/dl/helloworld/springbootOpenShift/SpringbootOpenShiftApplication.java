@@ -16,7 +16,7 @@ public class SpringbootOpenShiftApplication {
 @RestController
 class HomeController {
 
-	@GetMapping("/")
+	@GetMapping("/seb")
 	public String test(){
 		return"HelloWorld!";
 	}
