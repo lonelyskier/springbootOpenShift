@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringbootOpenShiftApplication {
 
 	public static void main(String[] args) {
+		System.out.println("DENNIS SPRING BOOT");
 		SpringApplication.run(SpringbootOpenShiftApplication.class, args);
 	}
 }
@@ -18,6 +19,7 @@ class HomeController {
 
 	@GetMapping("/seb")
 	public String test(){
+		System.out.println("SEB");
 		return"HelloWorld!";
 	}
 }
